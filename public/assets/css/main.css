@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto;wght@400;500;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    width: 51.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.course-text {
+    text-align: justify;
+    line-height: 1.65rem;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-dsm {
+    width: 22.3125rem;
+    height: 7.4375rem;
+}
+
+.logo-fatec {
+    width: 10.125rem;
+    height: 3.875rem;
+}
+
+.logo-cps {
+    width: 12rem;
+    height: 8rem;
+}
+
+.actions {
+    display: flex;   
+}
+
+.btn-link {
+    background-color: #1f6feb;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0;
+}
+
+.btn-link:hover {
+    background-color: #195dca;
+}
+
+.btn-secondary {
+    background-color: #4b5563;
+    gap: 2rem;
+}
+
+.btn-secondary:hover {
+    background-color: #374151;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auth-form label {
+    font-weight: 500;
+}
+
+.auth-form input {
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.065rem solid #cbd5e1;
+    font: inherit;
+}
+
+.link {
+    color: #1f6feb;
+    text-decoration: none;
+    font-weight: 700;
+}
